@@ -1,1 +1,6 @@
+# Write it!
 
+Platanus/NoCommand:
+  Description: "Prefer usage of `ActiveJob` instead of `PowerTypes::Command`"
+  Enabled: true
+  VersionAdded: "<<next>>"
