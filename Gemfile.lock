@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     rubocop-platanus (0.1.0)
-      rubocop
+      rubocop (>= 0.89.0)
 
 GEM
   remote: https://rubygems.org/
