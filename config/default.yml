@@ -4,3 +4,8 @@ Platanus/NoCommand:
   Description: "Prefer usage of `ActiveJob` instead of `PowerTypes::Command`"
   Enabled: true
   VersionAdded: "<<next>>"
+
+Platanus/PunditInApplicationController:
+  Description: "`Pundit` should be included only in the `Application Controller`"
+  Enabled: true
+  VersionAdded: "0.1.0"
