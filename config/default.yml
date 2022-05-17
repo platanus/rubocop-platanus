@@ -5,6 +5,11 @@ Platanus/NoCommand:
   Enabled: true
   VersionAdded: "<<next>>"
 
+Platanus/NoRenderJson:
+  Description: "Prefer usage of `respond_with` instead of `render json:` to take advantage of `ApiResponder` and `serializers`"
+  Enabled: true
+  VersionAdded: "<<next>>"
+
 Platanus/PunditInApplicationController:
   Description: "`Pundit` should be included only in the `Application Controller`"
   Enabled: true
