@@ -96,8 +96,6 @@ module RuboCop
           hash_node = respond_with(node)
           return true if is_hash?(hash_node)
 
-          return false unless hash_node.variable?
-
           var_name = var_name(hash_node)
           return false if var_name.nil?
 

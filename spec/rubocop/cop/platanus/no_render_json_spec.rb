@@ -59,4 +59,12 @@ RSpec.describe RuboCop::Cop::Platanus::NoRenderJson, :config do
       respond_with(my_resource)
     RUBY
   end
+
+  it 'does not register an offense when using `respond_with` with an undefined variable' do
+    expect_no_offenses <<~RUBY
+      def foo
+        respond_with MyModel.first
+      end
+    RUBY
+  end
 end
