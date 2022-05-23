@@ -7,6 +7,14 @@ Platanus/NoCommand:
     - "app/commands/**/*.rb"
   VersionAdded: "<<next>>"
 
+Platanus/NoFlashInApi:
+  Description: "Don't use `flash` in api controllers."
+  Enabled: true
+  Include:
+    - "app/controllers/api/**/*.rb"
+  SafeAutoCorrect: false
+  VersionAdded: "<<next>>"
+
 Platanus/NoRenderJson:
   Description: "Prefer usage of `respond_with` instead of `render json:` to take advantage of `ApiResponder` and `serializers`"
   Enabled: true
