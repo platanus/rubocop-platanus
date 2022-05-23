@@ -1,4 +1,4 @@
-# Test Gem
+# Rubocop Platanus
 
 [![Gem Version](https://badge.fury.io/rb/rubocop-platanus.svg)](https://badge.fury.io/rb/rubocop-platanus)
 [![CircleCI](https://circleci.com/gh/platanus/rubocop-platanus.svg?style=shield)](https://app.circleci.com/pipelines/github/platanus/rubocop-platanus)
