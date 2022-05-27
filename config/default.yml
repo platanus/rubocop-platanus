@@ -10,9 +10,17 @@ Platanus/NoCommand:
 Platanus/NoFlashInApi:
   Description: "Don't use `flash` in api controllers."
   Enabled: true
+  SafeAutoCorrect: false
   Include:
     - "app/controllers/api/**/*.rb"
+  VersionAdded: "<<next>>"
+  
+Platanus/NoEnumerize:
+  Description: "Prefer usage of Rails `enum` instead of `Enumerize`"
+  Enabled: true
   SafeAutoCorrect: false
+  Include:
+    - "app/models/**/*.rb"
   VersionAdded: "<<next>>"
 
 Platanus/NoRenderJson:
