@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 Features
 
+* Add cop Platanus/NoEnumerize
 * Add cop Platanus/NoRenderJson
 * Add cop Platanus/PunditInApplicationController
 
