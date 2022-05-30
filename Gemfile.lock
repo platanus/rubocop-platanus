@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-platanus (0.1.0)
+    rubocop-platanus (0.2.0)
       rubocop (>= 0.89.0)
 
 GEM
@@ -98,6 +98,7 @@ GEM
     unicode-display_width (2.1.0)
 
 PLATFORMS
+  x86_64-darwin-20
   x86_64-linux
 
 DEPENDENCIES
@@ -112,4 +113,4 @@ DEPENDENCIES
   rubocop-platanus!
 
 BUNDLED WITH
-   2.3.11
+   2.3.14
