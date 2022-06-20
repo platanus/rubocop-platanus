@@ -14,7 +14,7 @@ Platanus/NoFlashInApi:
   Include:
     - "app/controllers/api/**/*.rb"
   VersionAdded: "<<next>>"
-  
+
 Platanus/NoEnumerize:
   Description: "Prefer usage of Rails `enum` instead of `Enumerize`"
   Enabled: true
@@ -36,3 +36,10 @@ Platanus/PunditInApplicationController:
   Include:
     - "app/controllers/**/*.rb"
   VersionAdded: "0.1.0"
+
+Platanus/SingularSerializer:
+  Description: "Serializers must be named with a singular resource name"
+  Enabled: true
+  Include:
+    - "app/serializers/**/*.rb"
+  VersionAdded: "<<next>>"
