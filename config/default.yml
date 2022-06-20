@@ -5,7 +5,7 @@ Platanus/NoCommand:
   Enabled: true
   Include:
     - "app/commands/**/*.rb"
-  VersionAdded: "<<next>>"
+  VersionAdded: "0.2.0"
 
 Platanus/NoFlashInApi:
   Description: "Don't use `flash` in api controllers."
@@ -13,7 +13,7 @@ Platanus/NoFlashInApi:
   SafeAutoCorrect: false
   Include:
     - "app/controllers/api/**/*.rb"
-  VersionAdded: "<<next>>"
+  VersionAdded: "0.2.0"
 
 Platanus/NoEnumerize:
   Description: "Prefer usage of Rails `enum` instead of `Enumerize`"
@@ -21,14 +21,14 @@ Platanus/NoEnumerize:
   SafeAutoCorrect: false
   Include:
     - "app/models/**/*.rb"
-  VersionAdded: "<<next>>"
+  VersionAdded: "0.2.0"
 
 Platanus/NoRenderJson:
   Description: "Prefer usage of `respond_with` instead of `render json:` to take advantage of `ApiResponder` and `serializers`"
   Enabled: true
   Include:
     - "app/controllers/**/*.rb"
-  VersionAdded: "<<next>>"
+  VersionAdded: "0.2.0"
 
 Platanus/PunditInApplicationController:
   Description: "`Pundit` should be included only in the `Application Controller`"
