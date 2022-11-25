@@ -7,6 +7,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 Features
 
+* Add cop Platanus/ProcInAAFilter
 * Add cop Platanus/SingularSerializer
 
 ### v0.2.0
