@@ -78,6 +78,14 @@ Do 4 steps:
      for your new cop.
 ```
 
+### Resources
+
+To create new cops and node matchers, follow these resources on node pattern syntax:
+
+- [Rubocop development docs](https://docs.rubocop.org/rubocop/1.39/development.html)
+- [Node patterns](https://docs.rubocop.org/rubocop-ast/node_pattern.html)
+- [Node types](https://docs.rubocop.org/rubocop-ast/node_types.html)
+
 ## Publishing
 
 On master/main branch...
