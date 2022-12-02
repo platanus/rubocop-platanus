@@ -37,6 +37,13 @@ Platanus/ProcInAAFilter:
     - "app/admin/**/*.rb"
   VersionAdded: "<<next>>"
 
+Platanus/NoWhereAasmState:
+  Description: "Using `Model.where(aasm_state: 'state')` is prone to silent errors and is not recommended."
+  Enabled: true
+  Include:
+    - "app/**/*.rb"
+  VersionAdded: "<<next>>"
+
 Platanus/PunditInApplicationController:
   Description: "`Pundit` should be included only in the `Application Controller`"
   Enabled: true
