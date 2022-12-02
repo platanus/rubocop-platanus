@@ -30,6 +30,13 @@ Platanus/NoRenderJson:
     - "app/controllers/**/*.rb"
   VersionAdded: "0.2.0"
 
+Platanus/ProcInAAFilter:
+  Description: "ActiveAdmin filter collections should always be a `proc` or `lambda`"
+  Enabled: true
+  Include:
+    - "app/admin/**/*.rb"
+  VersionAdded: "<<next>>"
+
 Platanus/PunditInApplicationController:
   Description: "`Pundit` should be included only in the `Application Controller`"
   Enabled: true
