@@ -57,3 +57,11 @@ Platanus/SingularSerializer:
   Include:
     - "app/serializers/**/*.rb"
   VersionAdded: "<<next>>"
+
+Platanus/EnvInModule:
+  Description: 'Prefer retrieving environment variables in a dedicated module.'
+  Enabled: true
+  Include:
+    - 'app/**/*.rb'
+  VersionAdded: '<<next>>'
+
